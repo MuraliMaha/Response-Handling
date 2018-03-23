@@ -12,9 +12,12 @@
 		78E20F082064D53F003EFBF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E20F062064D53F003EFBF7 /* Main.storyboard */; };
 		78E20F0A2064D53F003EFBF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E20F092064D53F003EFBF7 /* Assets.xcassets */; };
 		78E20F0D2064D53F003EFBF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E20F0B2064D53F003EFBF7 /* LaunchScreen.storyboard */; };
+		78E20F152064DFA1003EFBF7 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E20F142064DFA1003EFBF7 /* WebService.swift */; };
+		7ED0DF0A05645B8AFBF9C67D /* Pods_uitiouxMapExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22ACED74FAF6CAD8235CE53 /* Pods_uitiouxMapExercise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B142C67B9855F31DBD6EC62 /* Pods-uitiouxMapExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uitiouxMapExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-uitiouxMapExercise/Pods-uitiouxMapExercise.release.xcconfig"; sourceTree = "<group>"; };
 		78E20EFF2064D53F003EFBF7 /* uitiouxMapExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uitiouxMapExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E20F022064D53F003EFBF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78E20F042064D53F003EFBF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		78E20F092064D53F003EFBF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78E20F0C2064D53F003EFBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78E20F0E2064D53F003EFBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E20F142064DFA1003EFBF7 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		792FCC0EC55A4E2533EA37E2 /* Pods-uitiouxMapExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uitiouxMapExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uitiouxMapExercise/Pods-uitiouxMapExercise.debug.xcconfig"; sourceTree = "<group>"; };
+		D22ACED74FAF6CAD8235CE53 /* Pods_uitiouxMapExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uitiouxMapExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED0DF0A05645B8AFBF9C67D /* Pods_uitiouxMapExercise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				78E20F012064D53F003EFBF7 /* uitiouxMapExercise */,
 				78E20F002064D53F003EFBF7 /* Products */,
+				83A161B1A548ED1BB95CBD1B /* Pods */,
+				92F98EC360CF60D0B6FD2951 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +65,30 @@
 			children = (
 				78E20F022064D53F003EFBF7 /* AppDelegate.swift */,
 				78E20F042064D53F003EFBF7 /* ViewController.swift */,
+				78E20F142064DFA1003EFBF7 /* WebService.swift */,
 				78E20F062064D53F003EFBF7 /* Main.storyboard */,
 				78E20F092064D53F003EFBF7 /* Assets.xcassets */,
 				78E20F0B2064D53F003EFBF7 /* LaunchScreen.storyboard */,
 				78E20F0E2064D53F003EFBF7 /* Info.plist */,
 			);
 			path = uitiouxMapExercise;
+			sourceTree = "<group>";
+		};
+		83A161B1A548ED1BB95CBD1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				792FCC0EC55A4E2533EA37E2 /* Pods-uitiouxMapExercise.debug.xcconfig */,
+				4B142C67B9855F31DBD6EC62 /* Pods-uitiouxMapExercise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92F98EC360CF60D0B6FD2951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D22ACED74FAF6CAD8235CE53 /* Pods_uitiouxMapExercise.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78E20F112064D53F003EFBF7 /* Build configuration list for PBXNativeTarget "uitiouxMapExercise" */;
 			buildPhases = (
+				A0B6AF6622EC3D4260E04199 /* [CP] Check Pods Manifest.lock */,
 				78E20EFB2064D53F003EFBF7 /* Sources */,
 				78E20EFC2064D53F003EFBF7 /* Frameworks */,
 				78E20EFD2064D53F003EFBF7 /* Resources */,
+				F09A7D0404D9EF591EF8D1C7 /* [CP] Embed Pods Frameworks */,
+				0609B244F7727BE1BD649B28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +161,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0609B244F7727BE1BD649B28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uitiouxMapExercise/Pods-uitiouxMapExercise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B6AF6622EC3D4260E04199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uitiouxMapExercise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09A7D0404D9EF591EF8D1C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-uitiouxMapExercise/Pods-uitiouxMapExercise-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uitiouxMapExercise/Pods-uitiouxMapExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78E20EFB2064D53F003EFBF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E20F152064DFA1003EFBF7 /* WebService.swift in Sources */,
 				78E20F052064D53F003EFBF7 /* ViewController.swift in Sources */,
 				78E20F032064D53F003EFBF7 /* AppDelegate.swift in Sources */,
 			);
@@ -211,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -272,31 +357,35 @@
 		};
 		78E20F122064D53F003EFBF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792FCC0EC55A4E2533EA37E2 /* Pods-uitiouxMapExercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28T5MPGCB4;
 				INFOPLIST_FILE = uitiouxMapExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Suntelematics.uitiouxMapExercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		78E20F132064D53F003EFBF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B142C67B9855F31DBD6EC62 /* Pods-uitiouxMapExercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28T5MPGCB4;
 				INFOPLIST_FILE = uitiouxMapExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Suntelematics.uitiouxMapExercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
